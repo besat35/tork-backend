@@ -22,7 +22,7 @@ class ChatRequest(BaseModel):
     message: str
 
 OPENROUTER_URL = "https://openrouter.ai/api/v1/chat/completions"
-MODEL = "google/gemma-2-9b-it:free"
+MODEL = "google/gemma-4-31b-it:free"
 
 @app.get("/")
 def health():
